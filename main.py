@@ -15,6 +15,6 @@ def update():
     player.x += held_keys['d'] * time.dt
     cloud.x += time.dt
 
-         
+
 
 app.run()
