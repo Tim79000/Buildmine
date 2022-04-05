@@ -3,7 +3,7 @@ from ursina import *
 
 app = Ursina()
 
-plums = ["1"]
+plums = 1
 
 print ('Buildmine 0.0.1')
 player = Sprite('player.png')
@@ -15,8 +15,6 @@ def update():
     player.x += held_keys['d'] * time.dt
     cloud.x += time.dt
 
-'''
-Hello MadKamel. :)
-'''
+         
 
 app.run()
